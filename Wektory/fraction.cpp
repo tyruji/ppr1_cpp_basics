@@ -3,7 +3,8 @@
 
 void fraction( double& integral, double& fractional, double fraction )
 {
-    
+    integral = std::trunc( fraction );
+    fractional = fraction - integral;
 }
 
 
